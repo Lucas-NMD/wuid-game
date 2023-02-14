@@ -1,0 +1,48 @@
+.right {
+    float: right;
+    top: 40%;
+    bottom: 40%;
+    right: 5%;
+    position: absolute;
+    text-align: center;
+}
+.left {
+    float: left;
+    top: 40%;
+    bottom: 40%;
+    left: 5%;
+    position: absolute;
+    text-align: center;
+}
+h1, h2 {
+    text-align: center;
+    font-size: 5em;
+}
+.boss {
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    position: relative;
+}
+.crunch {
+    text-align: center;
+}
+.shelf {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-auto-flow: column;
+}
+
+.book {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    text-align: center;
+    bottom: 10%;
+    left: 40%;
+    right: 40%;
+}
+.hide {
+    display: none;
+}
